@@ -17,7 +17,7 @@ A GPS tracking application with Vue.js frontend and Go backend.
 
 # One Step GPS - Project
 
-This is my submission for the project detail. The project contains 2 folders in a [monorepo on Github](https://github.com/alexbeattie/OneStepProj). One is labeled **[frontend](https://github.com/alexbeattie/OneStepProj/tree/main/frontend)** and the other is labeled [backend](https://github.com/alexbeattie/OneStepProj/tree/main/backend).
+This is my submission for the project detail. The project contains 2 folders here: (https://github.com/alexbeattie/OneStepGPS). One is labeled **[frontend](https://github.com/alexbeattie/OneStepGPS/tree/main/frontend)** and the other is labeled [backend](https://github.com/alexbeattie/OneStepGPS/tree/main/backend).
 
 The **backend** is written in Go and the **frontend** is written in Vue.js. The backend is intended to connected to connect to a [PostgreSQL](https://www.postgresql.org/) database in order to demonstrate persistence. 
 
