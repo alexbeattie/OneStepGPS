@@ -88,3 +88,33 @@ backend/
 -   For custom migrations or database interactions, extend the  `models`  and  `services`  packages.
 -   Update  `.env`  values as needed for production.
 -   I am serving the frontend on the same EC2 instance that the Go routine runs on. It makes dealing with CORS, SSL/TLS and site verification far less complex, but could just as well placed on AWS Amplify or a service such as Vercel and pointed the domain to the EC2 instance. 
+## Notes for EC2 / Go routine 
+
+1. To start your server after a reboot:
+```bash
+sudo systemctl start goserver
+```
+
+1. To check if it's running:
+```bash
+sudo systemctl status goserver
+```
+
+1. If you make any changes to your service file or code:
+```bash
+sudo systemctl daemon-reload  # Only needed if you change the service file
+sudo systemctl restart goserver
+```
+
+The best part is that your server will automatically:
+- Start when your EC2 instance boots up (because we enabled the service)
+- Restart if it crashes
+- Keep running even if you log out of SSH
+
+### Quick reference for other useful commands:
+```bash
+sudo systemctl stop goserver    # To stop the server
+sudo systemctl disable goserver # To prevent it from starting on boot
+sudo systemctl enable goserver  # To make it start on boot again
+journalctl -u goserver -f      # To watch the logs in real-time
+```
