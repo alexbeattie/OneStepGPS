@@ -92,7 +92,3 @@ backend/
 -   Use  `log.Printf`  for debugging and monitoring.
 -   For custom migrations or database interactions, extend the  `models`  and  `services`  packages.
 -   Update  `.env`  values as needed for production.
-
-
-## UML Diagram
-1.  `![UML Diagram]![(path-to-your-image.png)](file:///Users/alexbeattie/Downloads/go-server-uml.png)`
