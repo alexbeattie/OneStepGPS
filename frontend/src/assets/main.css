@@ -1,0 +1,22 @@
+/* src/assets/main.css */
+@tailwind base;     /* Reset and base styles */
+@tailwind components;   /* Component classes */
+@tailwind utilities;    /* Utility classes */
+
+/* Your custom CSS can go here */
+
+@media (max-width: 768px) {
+  .custom-info-window {
+    max-width: 90vw !important;
+  }
+  
+  .device-list {
+    height: calc(100vh - 200px);
+    overflow-y: auto;
+  }
+  
+  .map-controls {
+    bottom: 80px;
+    right: 10px;
+  }
+}

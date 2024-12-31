@@ -1,0 +1,21 @@
+# Go binaries and build files
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Environment variables
+.env
+.env.local
+.env.production
+*.pem
+
+# Logs
+*.log
+
+# IDE specific files
+.idea/
+.vscode/

@@ -1,0 +1,9 @@
+# flyctl launch added from .gitignore
+# Essential for your project
+**/.env
+**/.env.local
+**/.env.*
+!**/.env.example  # Keep example env if you have one
+**/*.exe
+**/.DS_Store      # If you're on Mac
+fly.toml
