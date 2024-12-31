@@ -1,4 +1,4 @@
-# goproject
+# OneStepGPS / backend 
 ## Backend Installation
 
 ### Prerequisites
