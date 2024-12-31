@@ -87,3 +87,4 @@ backend/
 -   Use  `log.Printf`  for debugging and monitoring.
 -   For custom migrations or database interactions, extend the  `models`  and  `services`  packages.
 -   Update  `.env`  values as needed for production.
+-   I used the EC2 instance that the Go routine ran on. It made dealing with CORS and SSL/TLS far less complex, but could just as well placed on AWS Amplify or a service such as Vercel and pointed the domain to the EC2 instance. 
