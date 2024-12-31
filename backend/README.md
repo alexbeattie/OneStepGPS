@@ -4,11 +4,6 @@
 ### Prerequisites
 1.  Install  [Go](https://golang.org/dl/).
 2.  Install PostgreSQL and set up a database.
-   
-### Clone the Repository
-
-    git clone https://github.com/alexbeattie/golangone.git
-    cd golangone
 
 ### Install Dependencies
     go mod tidy
