@@ -53,42 +53,6 @@ VUE_APP_GOOGLE_MAPS_API_KEY=your_google_maps_api_key
 VUE_APP_API_URL=http://localhost:8080
 ```
 
-## Backend
-
-### Features
-- OneStepGPS API integration
-- User preferences storage
-- Real-time device data endpoints
-
-### Setup
-```bash
-# Run the server
-go run main.go
-```
-
-### Environment Setup
-Create `.env` file in backend directory:
-```env
-ONESTEPGPS_API_KEY=your_api_key
-```
-
-## Technical Stack
-### Frontend
-- Vue.js 3
-- Vuex 4
-- vue3-google-map
-- Lodash
-- Tailwind CSS
-
-### Backend
-- Go
-- [Your chosen storage solution]
-
-## API Integration
-The application integrates with the OneStepGPS API:
-- Base URL: https://track.onestepgps.com/v3/api
-- Documentation: https://track.onestepgps.com/v3/apidoc/
-
 ## File Structure
 ```
 frontend/
