@@ -50,6 +50,24 @@ This project demonstrates a Go web server using the following packages and featu
 -  **dotenv** for environment variable management.
 
 - A modular architecture with configuration, handlers, models, and services.
+## Technical Stack
+### Frontend
+- Vue.js 3
+- Vuex 4
+- vue3-google-map
+- Lodash
+- Tailwind CSS
+
+### Backend
+- Go
+- PostgreSQL (AWS RDS)
+- EC2
+- Vue files served from the EC2 Instance from the Vue.js /dist export
+
+## API Integration
+The application integrates with the OneStepGPS API:
+- Base URL: https://track.onestepgps.com/v3/api
+- Documentation: https://track.onestepgps.com/v3/apidoc/
 
 
 ## Backend Features - (Local & Production)
