@@ -137,5 +137,4 @@ frontend/
 MIT
 
 ## Acknowledgements
-This project was created for the team at One Step GPS demonstrating full-stack development capabilities with Vue.js and Go.
-```
+This project was created for the team at One Step GPS demonstrating full-stack development capabilities with Vue.js and Go
