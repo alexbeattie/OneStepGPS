@@ -1,5 +1,4 @@
 
-```markdown
 # One Step GPS Device Tracking
 
 A full-stack GPS tracking application with Vue.js frontend and Go backend. This project enables real-time device tracking and management using the OneStepGPS API.
